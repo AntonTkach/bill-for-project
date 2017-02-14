@@ -14,7 +14,22 @@ namespace Bill
             //TODO: Gather all the info 
             //???
             //PROFIT
+            NumberCounter.Text = NumberCounterIncrement().ToString();
             //TODO: convert to pdf and export
         }
+
+        protected int NumberCounterIncrement()
+        {
+            //TODO: store to file and take from it
+            int number = 0;
+            number++;
+            return number;
+        }
+
+        protected void NumberCounter_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

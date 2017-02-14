@@ -10,12 +10,12 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:Label ID="Header" runat="server" Text="Bill number:"></asp:Label>
-        <asp:Label ID="NumberCounter" runat="server" Text="-number goes here-"></asp:Label>
+        <asp:Label ID="Header" runat="server" Text="Order/Bill number:"></asp:Label>
+        <asp:Label ID="NumberCounter" runat="server" Text="-number goes here-" OnLoad="NumberCounter_Load"></asp:Label>
         <br />
     
     </div>
-        <asp:Label ID="Footer" runat="server" Text="Copiright?.."></asp:Label>
+        <asp:Label ID="Footer" runat="server" Text="Copiright 2017 TUT" BorderStyle="None" Font-Size="X-Small" Width="500px"></asp:Label>
     </form>
 </body>
 </html>
