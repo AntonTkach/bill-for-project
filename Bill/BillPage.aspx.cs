@@ -15,7 +15,11 @@ namespace Bill
             //???
             //PROFIT
             NumberCounter.Text = NumberCounterIncrement().ToString();
+            //TODO: conver data to HTML
             //TODO: convert to pdf and export
+            // These links seem promising http://stackoverflow.com/questions/2057836/how-can-i-return-a-pdf-from-a-web-request-in-asp-net
+            // http://wkhtmltopdf.org/index.html
+            // http://stackoverflow.com/questions/564650/convert-html-to-pdf-in-net 
         }
 
         protected int NumberCounterIncrement()
