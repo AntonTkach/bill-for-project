@@ -199,11 +199,12 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="BillPage.aspx" />
+    <Content Include="OrderingPage.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="DataForTests.aspx" />
+    <Content Include="DataforTest.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -384,6 +385,13 @@
     <Compile Include="BillPage.aspx.designer.cs">
       <DependentUpon>BillPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OrderingPage.aspx.cs">
+      <DependentUpon>OrderingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderingPage.aspx.designer.cs">
+      <DependentUpon>OrderingPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -391,12 +399,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DataForTests.aspx.cs">
-      <DependentUpon>DataForTests.aspx</DependentUpon>
+    <Compile Include="DataforTest.aspx.cs">
+      <DependentUpon>DataforTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DataForTests.aspx.designer.cs">
-      <DependentUpon>DataForTests.aspx</DependentUpon>
+    <Compile Include="DataforTest.aspx.designer.cs">
+      <DependentUpon>DataforTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
