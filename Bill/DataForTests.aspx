@@ -24,7 +24,7 @@
                 <asp:TableCell ID="CustomerInfo" runat="server">Customer</asp:TableCell>
                 <asp:TableCell runat="server">Bob</asp:TableCell>
                 <asp:TableCell runat="server">Tab</asp:TableCell>
-                <asp:TableCell runat="server">EE123456789</asp:TableCell>
+                <asp:TableCell runat="server">EE12345678912345678900</asp:TableCell>
             </asp:TableRow>
             <asp:TableRow runat="server">
             </asp:TableRow>
