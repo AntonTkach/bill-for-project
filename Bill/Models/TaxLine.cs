@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Bill.Models
 {
-    public class TaxLine
+    public class TaxLine : BaseOrderLine
     {
     }
 }

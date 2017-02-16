@@ -5,7 +5,8 @@ using System.Web;
 
 namespace Bill.Models
 {
-    public class ChargeLine
+    public class ChargeLine : BaseOrderLine
     {
+
     }
 }
