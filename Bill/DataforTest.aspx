@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataForTests.aspx.cs" Inherits="Bill.DataForTests" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataforTest.aspx.cs" Inherits="Bill.DataForTests" %>
 
 <!DOCTYPE html>
 
@@ -33,6 +33,8 @@
         <asp:CheckBox ID="CheckBoxEmail" runat="server" Text="send bill by email" />
         <br />
         <asp:Button ID="ButtonPay" runat="server" Text="Pay/Create a bill" />
+    
+        <asp:Button ID="ButtonChekOut" runat="server" Text="Proceed to chekout" />
     
     </div>
     </form>
