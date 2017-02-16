@@ -387,6 +387,7 @@
     <Compile Include="BillPage.aspx.designer.cs">
       <DependentUpon>BillPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="OrderingPage.aspx.cs">
       <DependentUpon>OrderingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -418,7 +419,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="PaymentMethods.aspx.cs">
       <DependentUpon>PaymentMethods.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

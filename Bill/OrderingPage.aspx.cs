@@ -13,5 +13,10 @@ namespace Bill
         {
 
         }
+
+        protected void ButtonCheckOut_Click(object sender, EventArgs e)
+        {
+            Page.Response.Redirect("PaymentMethods.aspx");
+        }
     }
 }
