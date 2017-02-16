@@ -7,5 +7,13 @@ namespace Bill.Models
 {
     public class Order
     {
+        private string id;
+        public string OrderID
+        {
+            get { return string.IsNullOrEmpty(id) ? string.Empty : id; }
+            set { id = value; }
+        }
+
+        
     }
 }
