@@ -5,7 +5,8 @@ using System.Web;
 
 namespace Bill.Models
 {
-    public class TaxLine : BaseOrderLine
+    public class ChargeLine : BaseOrderLine
     {
+        public static double orderSumma { get; set; }
     }
 }

@@ -213,6 +213,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Arve.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -385,6 +386,7 @@
     <Compile Include="BillPage.aspx.designer.cs">
       <DependentUpon>BillPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Logic\IdentityModels.cs" />
     <Compile Include="OrderingPage.aspx.cs">
       <DependentUpon>OrderingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -416,12 +418,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\BaseOrderLine.cs" />
-    <Compile Include="Models\ChargeLine.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\OrderLine.cs" />
-    <Compile Include="Models\TaxLine.cs" />
+    <Compile Include="Logic\BaseOrderLine.cs" />
+    <Compile Include="Logic\ChargeLine.cs" />
+    <Compile Include="Logic\Order.cs" />
+    <Compile Include="Logic\OrderLine.cs" />
+    <Compile Include="Logic\TaxLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
