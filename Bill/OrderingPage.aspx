@@ -17,7 +17,7 @@
         <asp:Label ID="LabelProduct" runat="server" Text="Product"></asp:Label>
         <br />
         <br />
-        <asp:Button ID="ButtonCheckOut" runat="server" Text="Procced to checkout" />
+        <asp:Button ID="ButtonCheckOut" runat="server" Text="Procced to checkout" OnClick="ButtonCheckOut_Click" />
     
     </div>
     </form>
