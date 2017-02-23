@@ -7,5 +7,6 @@ namespace Bill.Models
 {
     public class BaseOrderLine 
     {
+
     }
 }
