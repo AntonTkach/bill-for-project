@@ -7,6 +7,9 @@ namespace Bill.Models
 {
     public class BaseOrderLine 
     {
-
+        public double getTaxLines()
+        {
+            return TaxLine.TaxResult;
+        }
     }
 }
